@@ -1,0 +1,180 @@
+* {
+    font-family: 'pixelada' , sans-serif;
+}
+@font-face {
+    font-family: 'pixelada';
+    src: url(font/pixel.ttf);
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+    background-color: #3d3d3dff;
+}
+a {
+    font-family: 'Roboto';
+    text-decoration: none;
+    background-image: url(../fotos/galaxia.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 1px 24px;
+    font-size: 33px;
+    border-radius: 20px;
+}
+.retangulo {
+    width: 400px;
+    height: 570px;
+    background-color: #fff;
+    position: absolute;
+    bottom: 100px;
+    left: 35%;
+    top: 5%;
+    border-radius: 5%;
+}
+.card-header {
+    width: 400px;
+    height: 70px;
+    background-image: linear-gradient(to right, #f30404ff, rgb(119, 0, 0));
+    color: #fff;
+    position: absolute;
+    bottom: 100px;
+    left: 0%;
+    top: 0%;
+}
+#titulo_principal {
+    font-size: 28px;
+    padding-left: 13px;
+    margin-top: 20px;
+}
+.card-body {
+    background-image: linear-gradient(to bottom, #000000ff, rgb(102, 102, 102));
+}
+.card-body h1 {
+    margin: -25%;
+    padding: 20px;
+    margin-top: 60px; 
+    text-align: center;
+    font-size: 28px;
+    color: #fff;
+}
+.card-body h2 {
+    padding: 10px;
+    margin-bottom: 50px;
+    margin-top: 60px;
+    text-align: center;
+    font-size: 47px;
+    color: #fff;
+}
+.perfil {
+    font-family: sans-serif;
+    color: #000000;
+    display: flex;
+    align-items: flex-start;
+    padding: -30px;
+    margin-left: 0px;
+}
+#foto {
+    width: 120px;
+    height: 150px;
+    border-radius: 5px;
+    margin-left: 7px;
+    margin-top: -11%;
+    padding-right: 12px;
+}
+.card-pessoa h1 {
+    font-size: 22px;
+    margin-top: -55px;
+}
+.card-pessoa h2 {
+    font-size: 14px;
+    background-image: linear-gradient(#f7f7f7ff, #a1a1a1ff);
+    border-radius: 5px;
+    width: 200px;
+    height: 22px;
+    text-align: center;
+    margin-top: -9%;
+    margin-left: -2px;
+}
+.card-pessoa2 h1 {
+    font-size: 22px;
+    margin-top: -5px;
+    margin-left: -199px;
+}
+.card-pessoa2 h2 {
+    font-size: 14px;
+    background-image: linear-gradient(#f7f7f7ff, #a1a1a1ff);
+    border-radius: 5px;
+    width: 200px;
+    height: 22px;
+    text-align: center;
+    margin-left: -200px;
+    margin-top: -18px;
+}
+.card-pessoa3 h1 {
+    font-size: 22px;
+    margin-top: 50px;
+    margin-left: -199px;
+}
+.card-pessoa3 h2 {
+    font-size: 14px;
+    background-image: linear-gradient(#f7f7f7ff, #a1a1a1ff);
+    border-radius: 5px;
+    width: 200px;
+    height: 22px;
+    text-align: center;
+    margin-left: -200px;
+    margin-top: -18px;
+}
+
+.xp h1 {
+    color: rgb(238, 255, 6);
+    font-size: 24px;
+    margin-top: 107px;
+    margin-left: -325px;
+}
+.xp h2 {
+    color: rgb(238, 255, 0);
+    margin-top: -55px;
+    margin-left: -85px;
+}
+.barra-xp {
+    width: 91%;
+    margin-left: 19px;
+    background-image: linear-gradient(to right, rgb(145, 145, 145), rgb(100, 100, 100));
+    height: 20px;
+    border-radius: 5px;
+    margin-top: -15px;
+}
+#progresso {
+    border-radius: 5px;
+    height: 100%;
+    width: 50%;
+    background-image: linear-gradient( to right, rgb(238, 255, 0), rgb(173, 171, 0));
+}
+.conquista {
+    height: 163px;
+    border-radius: 17px;
+}
+.conquista h1 {
+    font-size: 22px;
+    color: #eeff01ff;
+    text-align: left;
+    margin-top: 3px;
+    margin-left: 13px;
+}
+#star {
+    font-size: 110px;
+    margin-top: -80px;
+    margin-left: 30px;
+    color: #eeff01ff;
+}
+#trofeu {
+    font-size: 67px;
+    margin-top: -130px;
+    margin-left: 150px;
+}
+#icone {
+    font-size: 70px;
+    margin-top: -111px;
+    margin-left: 270px;
+    color: #ffcc00;
+}
