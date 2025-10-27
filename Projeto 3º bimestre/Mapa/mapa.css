@@ -1,0 +1,217 @@
+* {
+    font-family: 'Roboto';
+}
+body {
+    margin: 0px;
+    background-color: #000;
+}
+.cabecalho {
+    background-image: url(../fotos/vialactea.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: sticky;
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center; 
+}
+#h1_header {
+    padding: 10px;
+    font-size: 34px;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: -9px;
+}
+.links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.links a {
+    text-decoration: none;
+    background-image: url(../fotos/galaxia.jpg);
+    background-size: cover;
+    color: #fff;
+    padding: 3px 25px;
+    font-size: 25px;
+    border-radius: 20px;
+}
+#mapa {
+    display: block;
+    margin-top: 10px;
+    width: 110%;
+}
+.mapa_links {
+    position: relative;
+    display: inline-block;
+}
+.mapa_links a {
+    position: absolute; 
+    display: block;
+    color: #000;
+    text-decoration: none;
+    font-size: 26px;
+    background-image: linear-gradient( #ff0000, #ffffff);
+    padding: 7px 15px;
+    border-radius: 25px;
+}
+#peixe {
+    top: 32px;
+    left: 185px;   
+}
+.peixe_text {
+    top: 112px;
+    left: 192px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 13px;
+}
+#aries {
+    top: 33px;
+    right: 125px;
+    border-radius: 55px;
+}
+.aries_text {
+    top: 110px;
+    right: 144px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 13px;
+}
+#touro {
+    top: 95px;
+    right: 23px;
+}
+.touro_text {
+    top: 150px;
+    right: 73px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 13px;
+}
+#gemeos {
+    top: 196px;
+    right: -29px;
+}
+.gemeos_text {
+    top: 235px;
+    right: 35px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 13px;
+}
+#cancer {
+    top: 320px;
+    right: -27px;
+}
+.cancer_text {
+    top: 315px;
+    right: 35px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 13px;
+}
+#lion {
+    top: 415px;
+    right: 29px;
+}
+.lion_text {
+    top: 390px;
+    right: 75px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 13px;
+}
+#virgin {
+    top: 474px;
+    right: 125px;
+}
+.virgin_text {
+    top: 430px;
+    right: 139px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 13px;
+}
+#libra {
+    top: 474px;
+    left: 179px;
+}
+.libra_text {
+    top: 430px;
+    left: 200px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 13px;
+}
+#escorpion {
+    top: 415px;
+    left: 79px;
+}
+.escorpion_text {
+    top: 376px;
+    left: 105px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 12px;
+}
+#sagitario {
+    top: 310px;
+    left: 22px;
+}
+.sagitario_text {
+    top: 320px;
+    left: 79px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 12px;
+}
+#capri {
+    top: 190px;
+    left: 19px;
+}
+.cornio_text {
+    top: 234px;
+    left: 79px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 11px;
+}
+#aquario {
+    top: 90px;
+    left: 77px;
+}
+.aquario_text {
+    top: 158px;
+    left: 110px;
+    position: absolute;
+    display: block;
+    color: #fff;
+    font-size: 13px;
+}
+#conteudo {
+    font-size: 28px;
+    padding: 1px;
+    margin-left: 15px;
+    color: #fff;
+}
+#conteudo_text {
+    font-size: 20px;
+    margin-top: -15px;
+    width: 700px;
+    margin-left: 20px;
+    color: #fff;
+}
